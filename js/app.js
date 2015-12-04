@@ -65,7 +65,8 @@ $(function(){
     
     var repos = $('#ghrepos').val();
     var reqesturi   = 'https://api.github.com/repositories' ;
-    var responsuri  = 'https://api.github.com/search/repositories?q=' + repos  ;
+    // var responsuri  = 'https://api.github.com/search/repositories?q=' + repos  ;
+    var responsuri  = 'https://api.github.com/repositories?q=' + repos  ;
 
     requestJSON(reqesturi, function(json) {
 
