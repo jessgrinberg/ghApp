@@ -1,0 +1,24 @@
+body {
+	font-family: 'Helvetica Neue';
+	background-color: #f94d4d;
+}
+
+a {
+	color: #000;
+}
+
+#main {
+	display: block;
+	width: 800px;
+	background-color: #fff;
+	padding: 15px 25px;
+	box-shadow: 1px 2px 3px -1px rgba(0,0,0,0.4);
+	border-radius: 4px;
+}
+
+input[type="text"] {
+	width: 175px;
+    height: 33px;
+    margin: 1px;
+}
+
